@@ -3,7 +3,7 @@
 * @Author: sahildua2305
 * @Date:   2016-05-24 06:44:49
 * @Last Modified by:   Sahil Dua
-* @Last Modified time: 2016-05-24 13:06:18
+* @Last Modified time: 2016-05-24 13:48:28
 */
 
 'use strict';
@@ -21,13 +21,18 @@ var defaultOptions = {
 };
 
 function addWatermark(source, options, callback) {
-    //
+    var error;
+
+    if(!source || source == "") {
+        error = new Error('Text-Watermark::addWatermark : Invalid image source');
+        return callback(error);
+    }
+    return callback(null);
 }
 
 
 exports = module.exports = {
     addWatermark : addWatermark,
-    addWatermarkWithCb : addWatermarkWithCb,
     version : JSON.parse(
         require('fs').readFileSync(__dirname + '/package.json', 'utf-8')
     ).version

@@ -1,5 +1,6 @@
 {
     "name" : "text-watermark",
+    "id" : "text-watermark",
     "description" : "A watermark library based on ImageMagick for Node.js that can be used to put text watermarks on images.",
     "keywords" : [
         "watermark",
@@ -9,7 +10,7 @@
         "imagemagick"
     ],
     "version" : "1.0.0",
-    "main" : "./watermark.js",
+    "main" : "text-watermark.js",
     "author" : {
         "name" : "Sahil Dua",
         "email" : "sahildua2305@gmail.com"
