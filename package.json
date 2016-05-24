@@ -1,28 +1,28 @@
 {
-	"name" : "text-watermark",
-	"version" : "1.0.0",
-	"description" : "A watermark library based on ImageMagick for Node.js that can be used to put text watermarks on images.",
-	"main" : "./watermark.js",
-	"author" : {
-		"name" : "Sahil Dua",
-		"email" : "sahildua2305@gmail.com"
-	},
-	"dependencies" : {
-		"imagemagick" : ""
-	},
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/sahildua2305/text-watermark"
-	},
-	"bugs" : {
-		"url" : "https://github.com/sahildua2305/text-watermark/issues"
-	},
-	"keywords" : [
-		"watermark",
-		"text watermark",
-		"add text watermark",
-		"image watermark",
-		"imagemagick"
-	],
-	"licence" : "MIT"
+    "name" : "text-watermark",
+    "description" : "A watermark library based on ImageMagick for Node.js that can be used to put text watermarks on images.",
+    "keywords" : [
+        "watermark",
+        "text watermark",
+        "add text watermark",
+        "image watermark",
+        "imagemagick"
+    ],
+    "version" : "1.0.0",
+    "main" : "./watermark.js",
+    "author" : {
+        "name" : "Sahil Dua",
+        "email" : "sahildua2305@gmail.com"
+    },
+    "dependencies" : {
+        "imagemagick" : ""
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/sahildua2305/text-watermark"
+    },
+    "bugs" : {
+        "url" : "https://github.com/sahildua2305/text-watermark/issues"
+    },
+    "licence" : "MIT"
 }
