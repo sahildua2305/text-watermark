@@ -3,7 +3,7 @@
 * @Author: sahildua2305
 * @Date:   2016-05-24 06:59:44
 * @Last Modified by:   Sahil Dua
-* @Last Modified time: 2016-05-24 15:21:13
+* @Last Modified time: 2016-05-24 16:09:32
 */
 
 'use strict';
@@ -19,5 +19,5 @@ watermark.addWatermark('/home/sahildua2305/Downloads/sahildua.jpg', options, fun
     if(err)
         return console.log(err);
 
-    return console.log("Successful");
+    return console.log("Successful - no error");
 });
