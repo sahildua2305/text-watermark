@@ -26,6 +26,9 @@ To run the example app:
 npm start
 ```
 
+##Inspiration
+https://github.com/luthraG/image-watermark (I wanted to have a feature for taking the rotation angle input from the user. Noticed that the owner of the module `image-watermark` wasn't really active. So, I decided to write my own module.)
+
 ##License(MIT)
 
 Copyright (c) 2016 Sahil Dua (sahildua2305 AT gmail DOT com)
