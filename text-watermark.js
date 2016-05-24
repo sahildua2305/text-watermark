@@ -3,7 +3,7 @@
 * @Author: sahildua2305
 * @Date:   2016-05-24 06:44:49
 * @Last Modified by:   Sahil Dua
-* @Last Modified time: 2016-05-24 07:03:22
+* @Last Modified time: 2016-05-24 13:06:18
 */
 
 'use strict';
@@ -20,12 +20,8 @@ var defaultOptions = {
     "override-image" : false
 };
 
-function addWatermark(source, options) {
-    if(!source || source == "")
-        throw new Error('Text-Watermark::addWatermark : Specificied invalid image source');
-}
-
-function addWatermarkWithCb(source, options, callback) {
+function addWatermark(source, options, callback) {
+    //
 }
 
 
