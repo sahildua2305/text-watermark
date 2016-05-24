@@ -19,12 +19,18 @@
         "imagemagick" : "",
         "node-ratify" : ""
     },
+    "devDependencies" : {
+        "mocha" : "^1.21.4"
+    },
     "repository" : {
         "type" : "git",
         "url" : "https://github.com/sahildua2305/text-watermark"
     },
     "bugs" : {
         "url" : "https://github.com/sahildua2305/text-watermark/issues"
+    },
+    "scripts" : {
+        "test" : "mocha -R spec -t 5000"
     },
     "licence" : "MIT"
 }
