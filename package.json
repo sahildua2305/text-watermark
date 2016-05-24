@@ -15,7 +15,8 @@
         "email" : "sahildua2305@gmail.com"
     },
     "dependencies" : {
-        "imagemagick" : ""
+        "imagemagick" : "",
+        "node-ratify" : ""
     },
     "repository" : {
         "type" : "git",
