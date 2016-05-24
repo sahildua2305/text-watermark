@@ -6,10 +6,8 @@
     "author": "Sahil Dua",
     "scripts": {
         "start" : "node basic-add-watermark.js",
-        "clear" : "rm -rf node_modules"
+        "test" : "npm install ../../"
     },
     "devDependencies": {
-        "imagemagick": "",
-        "node-ratify" : ""
     }
 }

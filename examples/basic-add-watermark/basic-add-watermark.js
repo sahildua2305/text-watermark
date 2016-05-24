@@ -3,15 +3,12 @@
 * @Author: sahildua2305
 * @Date:   2016-05-24 06:59:44
 * @Last Modified by:   Sahil Dua
-* @Last Modified time: 2016-05-24 13:29:53
+* @Last Modified time: 2016-05-24 13:49:27
 */
 
 'use strict';
 
 var fs = require('fs');
-var im = require('imagemagick');
-var path = require('path');
-var ratify = require('node-ratify');
 var watermark = require('text-watermark');
 
 var options = {
