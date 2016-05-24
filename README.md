@@ -6,14 +6,14 @@ A watermark library based on ImageMagick for Node.js that can be used to put tex
 #####Running examples
 Choose an example and go to that folder
 ```bash
-	cd examples/basic-add-watermark
+cd examples/basic-add-watermark
 ```
 
 To install the fresh module from your clone
 ```javascript
-	npm test
+npm test
 ```
 To run the example app
 ```javascript
-	npm start
+npm start
 ```
