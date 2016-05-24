@@ -3,17 +3,25 @@ A watermark library based on ImageMagick for Node.js that can be used to put tex
 
 ###Installation
 
-#####Running examples
-Choose an example and go to that folder
+####Tests
+
+To run tests:
+```javascript
+npm test
+```
+
+####Running examples
+
+Choose an example and go to that folder:
 ```bash
 cd examples/basic-add-watermark
 ```
 
-To install the fresh module from your clone
+To install the fresh module from your clone:
 ```javascript
 npm test
 ```
-To run the example app
+To run the example app:
 ```javascript
 npm start
 ```
