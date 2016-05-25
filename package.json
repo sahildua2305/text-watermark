@@ -7,7 +7,9 @@
         "text watermark",
         "add text watermark",
         "image watermark",
-        "imagemagick"
+        "imagemagick",
+        "image",
+        "watermark image"
     ],
     "version" : "1.0.0",
     "main" : "text-watermark.js",

@@ -3,6 +3,18 @@ A watermark library based on ImageMagick for Node.js that can be used to put tex
 
 ##Installation
 
+To install the package using `npm`:
+```javascript
+npm install text-watermark
+```
+
+##Contribute
+
+Clone the repository:
+```bash
+git clone https://github.com/sahildua2305/text-watermark.git && cd text-watermark
+```
+
 ###Tests
 
 To run tests:
@@ -17,7 +29,7 @@ Choose an example and go to that folder:
 cd examples/basic-add-watermark
 ```
 
-To run the example app using the __**updated local module**__ `text-watermark`:
+To run the example app using the **updated local module** `text-watermark`:
 ```javascript
 npm start
 ```
