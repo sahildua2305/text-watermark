@@ -1,7 +1,7 @@
 {
-    "name": "basic-add-watermark",
+    "name": "add-watermark-with-basic-options",
     "version": "1.0.0",
-    "description": "A minimal application for adding a basic text watermark on an image",
+    "description": "A minimal application for adding a text watermark on an image",
     "main": "add-watermark.js",
     "author": "Sahil Dua (sahildua2305) <sahildua2305@gmail.com>",
     "scripts": {

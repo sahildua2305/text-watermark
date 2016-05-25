@@ -3,13 +3,14 @@
 * @Author: sahildua2305
 * @Date:   2016-05-24 06:44:49
 * @Last Modified by:   Sahil Dua
-* @Last Modified time: 2016-05-26 00:32:53
+* @Last Modified time: 2016-05-26 01:09:13
 */
 
 'use strict';
 
 var fs = require('fs');
 var im = require('imagemagick');
+var path = require('path');
 var ratify = require('node-ratify');
 
 // Default options for watermarking
@@ -110,7 +111,7 @@ function _parseOptions(imageData, source, options) {
     args.push(position);
 
     // angle of the watermark text wrt to X-axis
-    args.push("-annonate");
+    args.push("-annotate");
     args.push(angle);
 
     // watermark text
