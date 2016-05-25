@@ -3,7 +3,7 @@
 * @Author: sahildua2305
 * @Date:   2016-05-24 06:44:49
 * @Last Modified by:   Sahil Dua
-* @Last Modified time: 2016-05-26 00:20:14
+* @Last Modified time: 2016-05-26 00:32:53
 */
 
 'use strict';
@@ -169,11 +169,22 @@ function addWatermark(source, options, callback) {
 
             im.identify(source, function(err, imageData) {
                 if(err) {
-                    error = new Error('Text-Watermark::addWatermark : Unable to process image file : ' + err);
+                    error = new Error('Text-Watermark::addWatermark : Error while processing image file : ' + err);
                     return callback(error);
                 }
 
-                return callback("Successful - Execution stopped after ImageMagick read the image data");
+                var finalObj = _parseOptions(imageData, source, options);
+
+                im.convert(finalObj.args, function(err, stdout) {
+                    if(err) {
+                        error = new Error('Text-Watermark::addWatermark : Error in applying watermark : ' + err);
+                        return callback(error);
+                    }
+                    else {
+                        console.log('Text-Watermark::addWatermark : Watermark applied. You can check the output file at : ' + finalObj.outputPath);
+                        return callback(null);
+                    }
+                });
             });
         }
     });
