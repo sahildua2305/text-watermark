@@ -3,7 +3,7 @@
 * @Author: sahildua2305
 * @Date:   2016-05-24 06:44:49
 * @Last Modified by:   Sahil Dua
-* @Last Modified time: 2016-05-24 16:13:55
+* @Last Modified time: 2016-05-25 23:19:24
 */
 
 'use strict';
@@ -12,6 +12,7 @@ var fs = require('fs');
 var im = require('imagemagick');
 var ratify = require('node-ratify');
 
+// Default options for watermarking
 var defaultOptions = {
     "text" : "Sample Text Watermark",
     "color" : "rgba(0,0,0,0.4)",
@@ -19,9 +20,16 @@ var defaultOptions = {
     "override-image" : false
 };
 
+/**
+ * addWatermark
+ * @param {String}   source     image source
+ * @param {Object}   options    watermark options
+ * @param {Function} callback   callback function containing errors, if any
+ */
 function addWatermark(source, options, callback) {
     var error;
 
+    // check for valid/invalid arguments
     if((arguments.length < 2) ||
         (arguments.length  === 2 && !ratify.isFunction(arguments[1])) ||
         (arguments.length > 2 && !ratify.isFunction(arguments[2]))) {
@@ -32,6 +40,7 @@ function addWatermark(source, options, callback) {
         options = null;
     }
 
+    // if no image source is found
     if(!source || source == "") {
         error = new Error('Text-Watermark::addWatermark : No image source');
         return callback(error);
@@ -65,7 +74,6 @@ function addWatermark(source, options, callback) {
 
     return;
 }
-
 
 exports = module.exports = {
     addWatermark : addWatermark,
