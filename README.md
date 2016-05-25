@@ -17,11 +17,7 @@ Choose an example and go to that folder:
 cd examples/basic-add-watermark
 ```
 
-To install the fresh module from your clone:
-```javascript
-npm test
-```
-To run the example app:
+To run the example app using the updated **local** module `text-watermark`:
 ```javascript
 npm start
 ```
