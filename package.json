@@ -1,38 +1,38 @@
 {
-    "name" : "text-watermark",
-    "id" : "text-watermark",
-    "description" : "A watermark library based on ImageMagick for Node.js that can be used to put text watermarks on images.",
-    "keywords" : [
-        "watermark",
-        "text watermark",
-        "add text watermark",
-        "image watermark",
-        "imagemagick",
-        "image",
-        "watermark image"
-    ],
-    "version" : "1.0.0",
-    "main" : "text-watermark.js",
-    "author" : {
-        "name" : "Sahil Dua",
-        "email" : "sahildua2305@gmail.com"
-    },
-    "dependencies" : {
-        "imagemagick" : "",
-        "node-ratify" : ""
-    },
-    "devDependencies" : {
-        "mocha" : "^1.21.4"
-    },
-    "repository" : {
-        "type" : "git",
-        "url" : "https://github.com/sahildua2305/text-watermark"
-    },
-    "bugs" : {
-        "url" : "https://github.com/sahildua2305/text-watermark/issues"
-    },
-    "scripts" : {
-        "test" : "mocha -R spec -t 5000"
-    },
-    "licence" : "MIT"
+  "name": "text-watermark",
+  "id": "text-watermark",
+  "description": "A watermark library based on ImageMagick for Node.js that can be used to put text watermarks on images.",
+  "keywords": [
+    "watermark",
+    "text watermark",
+    "add text watermark",
+    "image watermark",
+    "imagemagick",
+    "image",
+    "watermark image"
+  ],
+  "version": "1.0.1",
+  "main": "text-watermark.js",
+  "author": {
+    "name": "Sahil Dua",
+    "email": "sahildua2305@gmail.com"
+  },
+  "dependencies": {
+    "imagemagick": "",
+    "node-ratify": ""
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahildua2305/text-watermark"
+  },
+  "bugs": {
+    "url": "https://github.com/sahildua2305/text-watermark/issues"
+  },
+  "scripts": {
+    "test": "mocha -R spec -t 5000"
+  },
+  "licence": "MIT"
 }
