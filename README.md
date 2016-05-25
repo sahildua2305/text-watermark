@@ -10,14 +10,14 @@ To run tests:
 npm test
 ```
 
-###Running examples
+###Examples
 
 Choose an example and go to that folder:
 ```bash
 cd examples/basic-add-watermark
 ```
 
-To run the example app using the updated **local** module `text-watermark`:
+To run the example app using the __**updated local module**__ `text-watermark`:
 ```javascript
 npm start
 ```
