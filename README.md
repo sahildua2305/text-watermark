@@ -1,28 +1,28 @@
 # text-watermark
 A watermark library based on ImageMagick for Node.js that can be used to put text watermarks on images.
 
-##Installation
+## Installation
 
 To install the package using `npm`:
 ```javascript
 npm install text-watermark
 ```
 
-##Contribute
+## Contribute
 
 Clone the repository:
 ```bash
 git clone https://github.com/sahildua2305/text-watermark.git && cd text-watermark
 ```
 
-###Tests
+### Tests
 
 To run tests:
 ```javascript
 npm test
 ```
 
-###Examples
+### Examples
 
 Choose an example and go to that folder:
 ```bash
@@ -34,10 +34,10 @@ To run the example app using the **updated local module** `text-watermark`:
 npm start
 ```
 
-##Inspiration
+## Inspiration
 https://github.com/luthraG/image-watermark (I wanted to have a feature for taking the rotation angle input from the user. Noticed that the owner of the module `image-watermark` wasn't really active. So, I decided to write my own module.)
 
-##License(MIT)
+## License(MIT)
 
 Copyright (c) 2016 Sahil Dua (sahildua2305 AT gmail DOT com)
 
